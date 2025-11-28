@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>My Resume</title>
+        <style>
+            body{
+                margin:0px;
+                padding:0px;
+            }
+            #Main{
+                display:flex;
+                width:858px;
+                margin: 0 auto;
+                margin-top:20px;
+            }
+            #left{
+                width:200px;
+                border-right:4px solid #73abc3;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            #right{
+                width:100%;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            h1{
+                text-align:center;
+                font-size:40px;
+                font-family:'Calibri';
+                margin:auto;
+            }
+            h4{
+                text-align:center;
+                font-family:'Calibri';
+                margin:0;
+            }
+            #left_data, #right_data{
+                margin-top:0px;
+                background-color:#73abc3;
+                text-align:center;
+                box-shadow:1px 1px 2px #000000;
+                padding:4px;
+            }
+            img{
+                width:14px;
+            }
+            p{
+                font-family:'Cambria';
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Shaurya Pratap Singh</h1>
+        <h4>B.Tech CSE AIML-02</h4>
+
+        <div id="Main">
+            <div id="left">
+
+                <!-- CONTACT -->
+                <h3 id="left_data">CONTACT</h3>
+                <p>
+                    <b>Address</b><br>
+                    ABES, Dhundhera, Ghaziabad, Uttar Pradesh <br>
+                    Pin-224225<br><br>
+                    <b>Phone</b><br>
+                    +91 9336751419<br><br>
+                    <b>Email</b><br>
+                    shaurya7185@gmail.com<br>
+                </p>
+
+                <!-- SOCIAL -->
+                <h3 id="left_data">SOCIAL</h3>
+                <p>
+                    <img src="insta.png"> : shaurya3.14<br>
+                    <img src="fb.png"> : Shaurya Pratap Singh<br>
+                    <img src="yt.png"> : Shaurya Pratap Singh<br>
+                    <img src="X.png"> : —<br>
+                    <img src="Linkdin.png"> : Shaurya Pratap Singh<br>
+                </p>
+
+                <!-- CERTIFICATIONS -->
+                <h3 id="left_data">CERTIFICATIONS</h3>
+                <p>
+                    Certificate from BYJU’S<br>
+                    Certificate from Cancer Control Society<br>
+                    Other online certifications
+                </p>
+
+            </div>
+
+            <div id="right">
+
+                <!-- PROFILE -->
+                <h3 id="right_data">PROFESSIONAL PROFILE</h3>
+                <p>
+                    Motivated and detail-oriented computer science student with strong interest in software development, AI, and emerging technologies. Skilled in problem-solving, programming fundamentals, and logical thinking. Continuously improving through self-learning, projects, and coursework.
+                </p>
+
+                <!-- SKILLS -->
+                <h3 id="right_data">SKILLS</h3>
+                <p>
+                    • Web Development Basics<br>
+                    • Programming Fundamentals<br>
+                    • Problem Solving<br>
+                    • Quick Learner & Adaptable<br>
+                    • Teamwork & Communication
+                </p>
+
+                <!-- PROJECTS -->
+                <h3 id="right_data">PROJECTS</h3>
+                <p>
+                    <b>1. Personal Portfolio Website</b><br>
+                    <i>HTML, CSS</i>
+                    <ul>
+                        <li>Created a responsive personal portfolio website to display skills and projects.</li>
+                    </ul>
+
+                    <b>2. Basic Calculator App</b><br>
+                    <i>Python</i>
+                    <ul>
+                        <li>Developed a simple calculator capable of basic arithmetic operations.</li>
+                    </ul>
+                </p>
+
+                <!-- EDUCATION -->
+                <h3 id="right_data">EDUCATION</h3>
+                <p>
+                    <b>ABES Engineering College, Ghaziabad</b><br>
+                    B.Tech in Computer Science (AI & ML)<br>
+                    2024 – Present
+                </p>
+
+            </div>
+        </div>
+    </body>
+</html>
