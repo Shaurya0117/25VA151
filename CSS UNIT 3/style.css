@@ -1,0 +1,15 @@
+        h1{
+            color:aquamarine;
+            font-size: 30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .txt_clr{
+            color: #999;
+        }
+        #para{
+            color: blueviolet;
+        }
+        p, h1, h3{
+            font-style: italic;
+        }
