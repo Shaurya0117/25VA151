@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>
+            Experiment 6
+        </title>
+        <style>
+            html{
+                display:flex;
+                justify-content:center;
+                background-image:url(grey_back.jpg);
+                background-size:cover;
+            }
+            #product{
+                height:auto;
+                width:600px;
+                background-color:#000000;
+                
+            }
+            #Title{
+                text-align:center;
+                color:white;
+                font-size:60px;
+                background-color:rgb(55, 55, 55);
+            }
+            img{
+                height:700px;
+                padding: 0 0 0 40px;
+            }
+            button{
+                height:60px;
+                width:180px;
+                margin: 20px 50px 30px 60px;
+                size:200px;
+                font-size:20px;
+            }
+            #add_to_cart{
+                background-color: rgb(29, 70, 182);
+            }
+            #buy_now{
+                background-color:#7ef968;
+            }
+            #price{
+                color:white;
+                font-size:50px;
+                text-align:left;
+                margin:2px 0 0 40px;
+                
+            }
+            #strike{
+                color:#767676;
+                font-size:30px;
+            }
+            label{
+                font-size:25px;
+                margin:px;
+            }
+            input{
+                font: inherit;
+                color: currentColor;
+                width: 18px;
+                height: 18px;
+                border: 0.15em solid currentColor;
+                border-radius: 50%;
+            }
+            form{
+                font-family: system-ui, sans-serif ;
+                font-size: 2rem;
+                font-weight: bold;
+                line-height: 1.1;
+                display: grid;
+                grid-template-columns: 1em auto;
+                gap: 0.5em;
+                color:white;
+                font-size:50px;
+                margin:4px 0 0 15;
+                display:inline;
+                
+            }
+            #form{
+                color:white;
+                font-size:30px;
+                margin:-10px 0 0 20px;
+                font-weight: bold;
+                display:flex;
+            }
+            #main{
+                display:flex;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="product">
+            <p id="Title"><b>Pure Cotton T-Shirt</b></p>
+            
+            <img src="Cotton_T_Shirt.jpeg">
+            <div id="main">
+                <div id="price">&#8377 1599 &nbsp &nbsp <br><strike id="strike">&#8377 3,999 </strike></div>
+            <div id="form"><form>
+        <label for="M">M</label>
+        <input type="radio" id="L" name="size" value="L">
+        <label for="L" >XL</label>
+        <input type="radio" id="X" name="size" value="XL">
+        <label for="XL">XXL</label>
+        <input type="radio" id="XL" name="size" value="XXL">
+            </form></div>
+            </div>
+            <div id="Button">
+                <button id="add_to_cart">ADD TO CART</button>
+                <button id="Buy_Now">BUY NOW</button>
+
+            </div>
+        </div>
+    </body>
+</html>
