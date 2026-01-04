@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>
+            Grid Layout
+        </title>
+        <style>
+            *,html{
+                margin:0;
+                padding: 0;
+                box-sizing: border-box;
+                color:white;
+            }
+            main{
+                width: 1400px;
+                height: 900px;
+                margin:0 auto;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 200px 80px 500px 150px;
+                gap:10px;
+            }
+            header,nav,footer{
+                background-color: #ff7700;
+                display: grid;
+                place-items: center;
+            }
+            section{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                gap:10px;
+            }
+            #r_u,#r_d{
+                height: 246px;
+                width: 940px;
+                gap:10px;
+                display: grid;
+                border: #000 solid 2px;
+                place-items: center;
+                background-color: #213ed1;
+            }
+            #left{
+                margin: 0;
+                padding: 0;
+                height: 500px;
+                display: grid;
+                place-items: center;
+                background-color: #b70000;
+            }
+            #right{
+                margin: 0;
+                padding: 0;
+                height: 500px;
+                display: grid;
+                place-items: center;
+                background-color: #ffffff;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <main>
+            <header><h2>Header</h2></header>
+            <nav><h2>Nav</h2></nav>
+            <section>
+                <div id="left"><h2>Left</h2></div>
+                <div id="right">
+                    <div id="r_u"><h2>Top</h2></div>
+                    <div id="r_d"><h2>Bottom</h2></div>
+                </div>
+            </section>
+            <footer><h2>
+                Footer
+            </h2></footer>
+        </main>
+    </body>
+</html>
