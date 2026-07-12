@@ -9,11 +9,22 @@ html,body{
 }
 
 body{
-    background-color: rgb(239, 239, 23);
+    background-color: rgb(232, 232, 185);
+    display: flex;          /*This command put both box beside each other (in row)*/
+    align-items: center;
+    justify-content: center;
 }
 
 div{
-    background-color: aquamarine;
-    width: 100%;
+    width: 55%;
     height: 50%;
+    font-size: larger;
+    font-family:fantasy;
+}
+#box2{
+    background-color: aquamarine;
+}
+
+#box1{
+    background-color: red;
 }
